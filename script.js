@@ -13,3 +13,12 @@ pass=pass+str.charAt(char)
 }
 function oi(){
 t.innerHTML=opi()}
+function copyContent()
+{
+  let ty = document.getElementById('yui')
+  let y=ty.textContent
+alert("Password copied successfully")
+       navigator.clipboard.writeText(y);
+
+    
+  }
